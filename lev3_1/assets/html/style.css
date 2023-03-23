@@ -4,7 +4,7 @@ font-family: 'Nunito', sans-serif;
 
 @font-face {
     font-family: 'Nunito';
-    src: url(../font/Nunito/Nunito-VariableFont_wght.ttf);
+    src: url('../font/Nunito/Nunito-VariableFont_wght.ttf');
 }
 
 *{
@@ -20,4 +20,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+}
+
+header button {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    background-color: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
 }
