@@ -1,0 +1,23 @@
+/* 
+font-family: 'Nunito', sans-serif; 
+*/
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../font/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
